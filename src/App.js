@@ -3,6 +3,8 @@ import './style.css';
 import MyApp from './Doc.js';
 import Condition from './Condition.js';
 import Lists from './Lists.js';
+import Events from './Events.js';
+import States from './States.js'
 
 export default function App() {
   return (
@@ -11,6 +13,9 @@ export default function App() {
       <MyApp />
       <Condition />
       <Lists />
+      <Events />
+      <States />
+      
     </div>
   );
 }
